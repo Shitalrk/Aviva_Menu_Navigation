@@ -39,7 +39,7 @@ public class MenuNavigationSD {
 		chromeoptions.addArguments("–lang= pl");
 		driver =new ChromeDriver();	
 		driver.manage().window().maximize();
-		driver.manage().timeouts().pageLoadTimeout(50,TimeUnit.SECONDS);
+		driver.manage().timeouts().pageLoadTimeout(70,TimeUnit.SECONDS);
 		driver.get("https://www.aviva.pl/");
 		}
 	}
@@ -75,11 +75,11 @@ public class MenuNavigationSD {
                    .collect(Collectors.toList());
 		   if(result.size()>0)	
 		   {
-		   System.out.println("Following Submenues are not Appearing under SubmenuHeader: "+header); 
+		   System.out.println("Following Submenus are not Appearing under SubmenuHeader: "+header); 
             result.stream().forEach(System.out::println);
 		   }
 		   else
-			   System.out.println("All Submenues are appearing for SubmenuHeader: " +header);
+			   System.out.println("All Submenus are appearing for SubmenuHeader: " +header);
 	  	   }
 	  	   if(string.equalsIgnoreCase("Kontakt i pomoc"))	  	   
 	  	   driver.close();

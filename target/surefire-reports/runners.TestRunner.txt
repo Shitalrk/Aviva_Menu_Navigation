@@ -1,10 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: runners.TestRunner
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 72.587 sec <<< FAILURE!
-Verify_Menus and Submenues(Menu Navigation Feature)  Time elapsed: 68.994 sec  <<< ERROR!
-java.lang.NullPointerException
-	at Pages.ClsMenuNavigation.GetSubmenuHeaders(ClsMenuNavigation.java:27)
-	at stepDefinitions.MenuNavigationSD.verify_all_submenues_appears_for_menu_test(MenuNavigationSD.java:42)
-	at ?.Verify all submenues appears for menu "Ubezpieczenia" test(file:///E:/Shital/My%20Learning/Selenium/Workspaces/CucumberBDDTest/Aviva_Navigation/src/test/resources/Features/MenuAndSubmenuNavigation.feature:7)
-
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 156.409 sec

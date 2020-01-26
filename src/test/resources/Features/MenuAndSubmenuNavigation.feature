@@ -10,7 +10,6 @@ Feature: Menu Navigation Feature
 	 |Menue|
 	 |Ubezpieczenia|
 	 |Inwestycje|
-	 |Emerytura|
-	 |XYZ|
+	 |Emerytura|	
 	 |Kontakt i pomoc|
 	 
